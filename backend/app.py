@@ -12,6 +12,14 @@ CORS(app)
 
 recent_predictions = get_initial_recent_predictions()
 
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({
+        "status": "success",
+        "message": "Customer Churn Prediction API is running"
+    }), 200
+
+
 @app.route('/train', methods=['POST'])
 def handle_train():
     try:
@@ -134,6 +142,8 @@ def handle_feature_importance():
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
-if __name__ == '__main__':
-    print("Flask server running on http://127.0.0.1:5000")
-    app.run(host='127.0.0.1', port=5000, debug=True)
+if __name__ == "__main__":
+    import os
+
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
