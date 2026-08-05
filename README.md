@@ -12,12 +12,6 @@ Designed for placement interview showcases, GitHub portfolio demonstration, and 
 
 ---
 
-## 📹 Application Demo
-
-![Application Workflow Demo](docs/demo.gif)
-
----
-
 ## 🖼️ Application Screenshots
 
 ### 1. Business Overview Dashboard
