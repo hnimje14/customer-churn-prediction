@@ -392,7 +392,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 <div align="center">
 
-  ### **Harshal Nimje** and  **Manish Punekar**
+  ### **Harshal Nimje** **and**  **Manish Punekar**
   *Final Year Computer Engineering Student*
 
   [![Portfolio](https://img.shields.io/badge/Website-Portfolio-orange?style=flat-square&logo=google-chrome&logoColor=white)](https://customer-churn-prediction-vert-chi.vercel.app/)
