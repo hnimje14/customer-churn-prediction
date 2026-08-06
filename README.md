@@ -288,7 +288,7 @@ docker compose down
 | `/train` | `POST` | Trigger model retraining on dataset | `selected_model, training_time, metrics` |
 | `/feature-importance`| `GET` | Fetch global SHAP feature rankings | `features: [{feature, score}]` |
 
-### Sample Inference Request (`POST /predict`)
+### Sample Inference Request (`POST /predict`) 
 ```json
 {
   "Gender": "Female",
